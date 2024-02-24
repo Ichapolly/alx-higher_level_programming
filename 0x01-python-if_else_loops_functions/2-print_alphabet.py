@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for 2-print_alphabet.py  in range(97, 122):
-     print(chr(i), end="") 
+for letter in range(ord('a'), ord('z')+1):
+    print("{0}-print_alphabet.py".format(chr(letter))) 
